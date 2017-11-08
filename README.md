@@ -51,4 +51,4 @@ Transfer-Encoding: chunked
 
 # License
 
-[2-clause BSD license](Simplified BSD)
+[Simplified BSD](https://opensource.org/licenses/BSD-2-Clause)
