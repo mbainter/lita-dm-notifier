@@ -2,8 +2,8 @@ module Lita
   module Handlers
     # DirectMessage Notification
     class DmNotifier < Handler
-      feature :async_dispatch
-      # insert handler code here
+      # NOTE: Disabled as it breaks rspec for now
+      # feature :async_dispatch
       http.post '/dm/notify', :send_notification
 
       # FORMAT:

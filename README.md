@@ -1,6 +1,10 @@
 # lita-dm-notifier
 
+[![Gem Version](https://badge.fury.io/rb/lita-dm-notifier.svg)](https://badge.fury.io/rb/lita-dm-notifier)
 [![Build Status](https://travis-ci.org/mbainter/lita-dm-notifier.png?branch=master)](https://travis-ci.org/mbainter/lita-dm-notifier)
+[![Coverage Status](https://coveralls.io/repos/mbainter/lita-dm-notifier/badge.svg?branch=master&service=github)](https://coveralls.io/github/mbainter/lita-dm-notifier?branch=master)
+
+
 
 This is a simple handler to allow leveraging Lita to send direct messages to users via webhooks. Historically email is usually how we send out notifications from our systems, but with modern authentication systems and often dynamic ip addressing this can be a headache. With this handler you can instead send a simple post call to Lita and send rich messages to users for notifications instead.
 

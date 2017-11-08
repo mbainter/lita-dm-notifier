@@ -3,7 +3,7 @@ Gem::Specification.new do |spec|
   spec.version       = "0.1.0"
   spec.authors       = ["Mark Bainter"]
   spec.email         = ["mbainter@gmail.com"]
-  spec.description   = "Allows to post formatted notifications from HTTP to users."
+  spec.description   = "Allows for posting formatted notifications from to slack users via HTTP."
   spec.summary       = "This plugin provides a HTTP endpoint to post formatted notifications privately to users in chat."
   spec.homepage      = "https://github.com/mbainter/lita-dm-notifier"
   spec.license       = "MIT"
@@ -21,4 +21,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rake"
   spec.add_development_dependency "rack-test"
   spec.add_development_dependency "rspec", ">= 3.0.0"
+  spec.add_development_dependency "simplecov"
+  spec.add_development_dependency "coveralls"
 end
