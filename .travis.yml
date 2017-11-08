@@ -6,3 +6,11 @@ before_install:
   - gem update --system
 services:
   - redis-server
+deploy:
+  provider: rubygems
+  api_key:
+    secure: FvcM10v2NeKlfpvDienEavfqiALlgbPSuEjU3cs3QS47T3TdNCNPY4iZGsg10AyQwNC/GUweCn5XfASktsXI2KiPdFcxl5PFhrcOeOyhSORz56me0k8gAruJPYZbNzE440XITjfx+EyqzTv83lj2hk/QfO+p4KrLwk9RCRpJ2KsInbKZVUYYTL4DNkLYYNNDUh4aUEFYHVS95blXqGzeFis8K2jvPSTZh1YIM4zFh1MFl5MYjJylts6dybAvE6luvZYN/PWXJnUT3MxHz9WaLu0lReUVs/1SSNxhvItF5h71GJY1J4pziXlFLWN90+SmhWXEdvF3fPda4YGh8lcBfI8/+sVR4WJuz/i5r7FIsOnXstLSBXQtTSpvWrBSOO/nUoBr34MjOdkRTNbMv0kgdx3RzkCjrMxkRN2CVf9VQZTqVZmU6pdGLTLo5ZJ43LjB9a0+l27DP+qQbOkRZdI3mQ5lMPTenYkT3lh1jGO9hNvqhypyhIp85rq9La7Igw7jU13Y9/u9J1bnzK+SRqnRqN0bnhVmNgpWKXzYLVGNe3DwZZrfsSO9G/SmSsLGsFH3Vos/PdbEra5mbdkEnEXaEECSgGpSCo3EyuBSxPkVn27nl19ozlPTfcYOrmcaxd19+QW0XycoR0L7A1xaljnovz5wzutEFo5a4GZhlKa1hlo=
+  gem: lita-dm-notifier
+  on:
+    tags: true
+    repo: mbainter/lita-dm-notifier
