@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name          = "lita-dm-notifier"
-  spec.version       = "0.1.0"
+  spec.version       = "0.1.1"
   spec.authors       = ["Mark Bainter"]
   spec.email         = ["mbainter@gmail.com"]
   spec.description   = "Allows for posting formatted notifications from to slack users via HTTP."
